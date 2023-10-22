@@ -4,10 +4,10 @@
 
 main()
 {
-	replaceFunc(maps\mp\zm_tomb::assign_lowest_unused_character_index, ::assign_dempsey);
+	replaceFunc(maps\mp\zm_tomb::assign_lowest_unused_character_index, ::pick_player);
 }
 
-assign_dempsey()
+pick_player()
 {
     charindexarray = [];
     charindexarray[0] = 0;
